@@ -61,7 +61,8 @@ body {
 .hero {
     height: 100vh;
     background-image: url(./assets/bg.png);
-    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
